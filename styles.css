@@ -187,3 +187,85 @@ nav ul li a:hover {
     color: #333333;
     font-weight: 600;
 }
+
+/* Additional styles for responsiveness */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+
+    .banner {
+        height: auto;
+    }
+
+    .toodo-logo {
+        width: 120px;
+        height: 120px;
+    }
+
+    .banner-content h3 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .features {
+        height: auto;
+    }
+
+    .features-img {
+        display: none;
+    }
+
+    .creator,
+    .final-section {
+        height: auto;
+    }
+
+    .creator-photo {
+        width: 180px;
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header-title {
+        font-size: 20px;
+    }
+
+    nav ul li a {
+        margin: 0 5px;
+        padding: 8px 10px;
+    }
+
+    .banner-content h3 {
+        font-size: 24px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+    }
+
+    .features,
+    .creator,
+    .final-section {
+        padding: 20px;
+    }
+
+    .features-img {
+        display: none;
+    }
+
+    .creator-photo {
+        width: 150px;
+        height: 140px;
+    }
+}
